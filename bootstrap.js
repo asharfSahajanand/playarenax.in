@@ -5,7 +5,7 @@ const API_URL =
   IPAPI_KEY +
   "&fields=status,countryCode,query,proxy,hosting";
 const MAX_REQUESTS = 100;
-const GA_MEASUREMENT_ID = "G-VGMV9WKRQ9";
+const GA_MEASUREMENT_ID = "G-8QJCLLREYS";
 
 // Country-specific floor CPM arrays
 const COUNTRY_FLOORS = {
@@ -115,7 +115,7 @@ function gtag_report_conversion(url) {
     }
   };
   gtag("event", "conversion", {
-    send_to: "AW-17974545902/Esq1CIHkyv4bEO6b9_pC",
+    send_to: "AW-17912215979/wThKCP6eyv4bEKvzmt1C",
     value: 0.1,
     currency: "AED",
     event_callback: callback,
@@ -373,7 +373,7 @@ if (typeof gtag === "undefined") {
     },
   });
 
-  gtag("config", "AW-17974545902");
+  gtag("config", "AW-17912215979");
 
   const gaScript = document.createElement("script");
   gaScript.async = true;
